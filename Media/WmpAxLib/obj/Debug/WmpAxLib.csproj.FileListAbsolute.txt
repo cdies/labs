@@ -1,0 +1,11 @@
+C:\labs\Media\WmpAxLib\bin\Debug\WmpAxLib.dll
+C:\labs\Media\WmpAxLib\bin\Debug\WmpAxLib.pdb
+C:\labs\Media\WmpAxLib\bin\Debug\Interop.WMPLib.dll
+C:\labs\Media\WmpAxLib\bin\Debug\AxInterop.WMPLib.dll
+C:\labs\Media\WmpAxLib\obj\Debug\Interop.WMPLib.dll
+C:\labs\Media\WmpAxLib\obj\Debug\AxInterop.WMPLib.dll
+C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.csproj.ResolveComReference.cache
+C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.WmpAxControl.resources
+C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.csproj.GenerateResource.Cache
+C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.dll
+C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.pdb

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MediaDbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MediaDbEntities2" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Table" EntityType="MediaDbModel.Table" />
+  </EntityContainer>
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Vocalist" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="Album" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="Path" Type="String" MaxLength="100" Unicode="true" FixedLength="true" />
+    <Property Name="Length" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+</Schema>
