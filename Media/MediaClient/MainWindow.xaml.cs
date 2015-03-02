@@ -13,8 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-
 namespace MediaClient
 {
     /// <summary>
@@ -51,6 +49,7 @@ namespace MediaClient
             System.Windows.Data.CollectionViewSource tableViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("tableViewSource")));
             tableViewSource.View.MoveCurrentToFirst();
         }
+
         private void tableDataGrid_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
         {
             DataGrid grid = sender as DataGrid;
