@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="83dee795-67f1-4bd4-84ca-8badd8600523"
+  name="AxWMPLib"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="90dbd37f-42bb-4e23-96e8-6bd28a19cc3a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAxWMPLib"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="7b1bad81-07ac-439e-9613-301e24e2b7e4">
+      <profileInstance
+        Id="4985c560-f269-4d1d-8977-c4a8a4fa26a6"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9f85de09-7146-49b8-86bb-d6b20100b6f8"
+        name="AxWindowsMediaPlayer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9a6090a7-1e72-4399-b765-052e6d8698a4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fobj%2FDebug%2FAxInterop.WMPLib.dll Namespace%3DAxWMPLib Type%3DAxWindowsMediaPlayer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="787d21b5-f6ad-4365-9de1-5ad0cc5f5f67"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="656fe9a2-53eb-486f-8135-a26fafd07501">
+                <propertyInstance
+                  Id="7f350715-9cf7-4dc5-8d25-4af4829fd7f9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="163d6641-45b7-486e-9d67-6b8b8aa1ddcc">
+                <propertyInstance
+                  Id="e50ca487-514f-4ee3-8b4f-2b371df40258"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c210251-a455-4276-ba8d-690277b72c09">
+                <propertyInstance
+                  Id="ed1be40a-a71b-4707-9ccb-7b9344b8703f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa5742a0-c449-4c62-8a78-ce49d08d0634">
+                <propertyInstance
+                  Id="fbdc3cdb-066d-4556-8c58-d8de3f22fa4c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a70c227-5223-451f-9b50-a1297bb08f58">
+                <propertyInstance
+                  Id="01bf46b8-2a82-479f-bd27-3cbfaa994531"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

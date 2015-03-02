@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4544f217-7c0a-4cba-94f7-e7352a29def7"
+  name="MediaDbDataSetTableAdapters"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d6e03aa1-ea81-4357-aca4-dbbf7d49d121"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMediaClient.MediaDbDataSetTableAdapters"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="e17d5455-97ea-476f-a0d8-8ac07879e999"
+        name="UpdateOrderOption"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="62da339e-969e-4c86-b723-fe87bcdd5f6e"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaClient%2Fbin%2FDebug%2FMediaClient.exe Namespace%3DMediaClient.MediaDbDataSetTableAdapters Type%3D(Name%3DUpdateOrderOption ParentType%3DTableAdapterManager)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="26659e68-d5b4-483d-bcfa-b3f392acd970"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d4de475-afa5-41e8-9f8e-b843c23c3dea">
+                <propertyInstance
+                  Id="cbb2713b-7e15-4a72-a730-16f2cabd0092"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d717317-5ae9-4568-aae7-46d8cd6d6f42">
+                <propertyInstance
+                  Id="d66c3438-2ae4-4464-b6e8-beb78635a98a"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d43df940-aaf3-4fee-a5f0-6af7ce6ef143">
+                <propertyInstance
+                  Id="9ee703e7-bf4b-40ae-b197-3cc6818ccfcb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="626fad15-5e7f-49cd-85ab-7a8578b4b9c9"
+        name="TableTableAdapter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="764ded26-1861-4409-ae80-3319675fd890"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaClient%2Fbin%2FDebug%2FMediaClient.exe Namespace%3DMediaClient.MediaDbDataSetTableAdapters Type%3DTableTableAdapter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="db5b43b6-7b47-494f-b1dd-a270ea7db701"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dd6f7b7b-74b0-4dd6-b310-b463b1ebb06d">
+                <propertyInstance
+                  Id="cce5ae52-ba46-40a6-a4b4-d40a86d80533"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c11bd05-4f6d-48e5-ac1b-e8f55f409c43">
+                <propertyInstance
+                  Id="a0fba8be-329e-4856-9217-f0b9ebfd0573"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="345fa036-1748-4c06-89bb-1f1398b4a15e">
+                <propertyInstance
+                  Id="5972a430-e5bd-471e-acf3-68a888b6a965"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81acd6a3-bf30-427a-9ada-5fbf232c32ca">
+                <propertyInstance
+                  Id="917d0e4a-10ce-4a69-82b4-cfc67b176ecb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d55ce1bc-5a2e-45a4-9bf3-45fa73d7709d">
+                <propertyInstance
+                  Id="06dc30fa-e972-4e96-88db-12e807a29f3f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="2760d8f3-8c4a-4038-b64b-82a037ff5828"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6fb477ea-3e2c-4c93-aaf2-0f682a64fd3f"
+              LastKnownName="Component"
+              LastKnownLocation="Package9_0608.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

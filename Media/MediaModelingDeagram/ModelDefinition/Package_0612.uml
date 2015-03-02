@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2f58d8b7-6917-4f28-aab5-a4550e647526"
+  name="WmpAxLib"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ba2568f7-c659-4e9a-b75b-24582ee63bb9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWmpAxLib"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="49cecd7b-5c5f-4fe2-a80e-fab40784db44"
+        name="WmpAxControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e921e2ec-954b-4c6a-83bf-bcd37d6ac695"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8150f2a4-fe4e-41f0-b8fe-e60360f39722"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62b6bf57-48f4-40fc-8a7d-55e44c8d79b0">
+                <propertyInstance
+                  Id="68362ff5-0f1a-4128-9246-435e44809478"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02c06365-2d6d-4508-b1b6-a79492b597f7">
+                <propertyInstance
+                  Id="adf128b9-a9ae-499e-908a-ed962c7e2667"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c499c7e5-027f-4a94-976e-10832ecaa325">
+                <propertyInstance
+                  Id="022a53c8-fdf4-4984-9405-6fa8a2044b03"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cae8a630-ee56-47ea-a7bc-953338ce25b7">
+                <propertyInstance
+                  Id="3c9fadc4-555f-4977-80b3-5c6f6ce0414a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86da9082-e266-4e6a-8247-8d48b4c51b74">
+                <propertyInstance
+                  Id="a3058f85-c254-4431-b1d9-ea9014126c0e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="cf60348a-2044-4d8e-b650-90aa435d03ff"
+            isSubstitutable="false">
+            <classMoniker
+              Id="993ed511-31ad-44e3-9c03-1d5df3f36437"
+              LastKnownName="UserControl"
+              LastKnownLocation="Package1_0612.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="54eabec6-51a4-4aa2-9de7-723716b91711"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6b2e886c-d0f1-4014-9fdb-7cf2f6739108"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="09c96a3e-0a98-4a0f-b77a-6b6d737fdaac"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e202bca-83a8-4d2f-9806-27f444c2a9d3">
+                    <propertyInstance
+                      Id="63ebe4fc-e873-4c8a-9ccc-c9f8ebeb9209"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf668705-a9be-43a5-a99c-c423228fe982">
+                    <propertyInstance
+                      Id="7d663406-c146-4398-9948-f983b8bcba59"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1abd920e-24c2-4a29-adba-f877fe140e6f">
+                    <propertyInstance
+                      Id="042658f2-85da-48a9-8594-1f4c87078e34"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8c584e5-7aed-4b95-974a-7ba0ba65139b">
+                    <propertyInstance
+                      Id="d6e2e980-debc-4c0e-a439-25d11d7dbbf5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63019980-2d1d-451a-9db2-bf7bf6129734">
+                    <propertyInstance
+                      Id="91a9aabe-08e2-45bc-b6af-bd07299e57aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="5bf43c34-ecbd-447b-b1b6-834ba7de1edb"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package9_0608.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cf1629d9-78bf-4a2d-b931-5d5ff4983064"
+            name="axWindowsMediaPlayer1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="877f643c-a15c-42e6-9fd5-e17b70f5229d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl Member%3DaxWindowsMediaPlayer1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="430b03ea-dd92-4abc-8675-e10036ca3420"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae948f66-2b13-4c2e-8f7b-26e798381f63">
+                    <propertyInstance
+                      Id="722eb8fa-2376-458b-a6cd-ddbabdb3c8e3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1a4bbe1-1d69-4cb6-abed-63383cd04da4">
+                    <propertyInstance
+                      Id="8f72e917-73a8-4bec-bc9b-66d1dd99255b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e804999-63d6-4cca-b177-241b4cc21d99">
+                    <propertyInstance
+                      Id="6e973250-153f-4bca-93e1-35bb57688109"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c552f1ea-8d13-4133-a44b-48419ef1d5b4">
+                    <propertyInstance
+                      Id="6c839e6c-fc65-4ca6-be3b-93a299a2a548"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="430c6cc4-95a1-4490-b84f-0c281171b0ca">
+                    <propertyInstance
+                      Id="f9b67e47-82b9-4234-8632-2ce55feed3b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="9f85de09-7146-49b8-86bb-d6b20100b6f8"
+                LastKnownName="AxWindowsMediaPlayer"
+                LastKnownLocation="Package11_0608.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b2926c54-fed6-4868-89c1-209d1bc03a6c"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8cc7116-158d-4ec2-9791-c283b848b364"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e1347b7e-9f92-4b65-8cfb-427b492ff5da"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12bbbf5a-b738-43d6-9601-ce191c609679">
+                    <propertyInstance
+                      Id="1aef6540-5a08-4d0a-85de-41a591c0674f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbb6c360-f29b-4449-bf93-b575a2441f61">
+                    <propertyInstance
+                      Id="bf9906d1-5d54-4cc3-9962-d484bc7016e6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be38f59b-5eba-401d-b40d-142827f216d7">
+                    <propertyInstance
+                      Id="b984ee6a-a0f3-4a85-a5bd-9629c9b2e69f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4754a636-8e1f-44be-9c7f-8dcbdef7b7f4">
+                    <propertyInstance
+                      Id="8034fff9-68a1-466c-8ffa-3798cf1abaa4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e807779-e60f-4983-b374-c01dce3a896c">
+                    <propertyInstance
+                      Id="398fc9d1-376b-47cc-8001-cb13064c9bd2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3833d5c-c407-465d-b572-c359f61c977f">
+                    <propertyInstance
+                      Id="7b360f32-5334-4e3c-9176-543a599f0a82"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3eebfff0-9588-4641-bb0e-b18f6d8c10fc"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8ff096c2-f0eb-4c5b-9d7a-349688b42653"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="MediaModelingDeagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="75a8ed65-7509-4142-882a-09a8d76cdf18"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="106f5299-364d-4c90-b3d8-be2dce8649d4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="12494241-dd4c-403e-a899-747eec1f74bc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6788cf0-7dca-4937-afaf-5bd7e0d8236f">
+                    <propertyInstance
+                      Id="828ae2d3-d310-4ece-875d-0391a93f7e76"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8def0719-a624-4be4-9c52-9728aa6950b1">
+                    <propertyInstance
+                      Id="e6ef3651-bb64-42eb-ae35-04a6492f87aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9015dbb4-a960-48eb-8b8c-510fb824d8d1">
+                    <propertyInstance
+                      Id="264a49b4-a8df-4d7d-a9e0-62be123186de"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e32be493-ccb7-4b51-8a87-5e7f9cf69d3a">
+                    <propertyInstance
+                      Id="274cc171-f13b-49ac-8890-3fe01ed4a304"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a61ac96d-50a9-409d-8426-c2fc81b50a43">
+                    <propertyInstance
+                      Id="2f1f5266-28b2-4757-8039-adde6f32e6b8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f8081b9-f22c-4320-a1bf-dceda93c6048">
+                    <propertyInstance
+                      Id="47bb4617-d4bf-4698-8b71-ee7338c11432"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2cf649c5-85f5-42a7-b404-b5145c39072b"
+            name="WmpAxControl"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="009651e6-dc49-4015-9468-06a493e2699f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FWmpAxLib.dll Namespace%3DWmpAxLib Type%3DWmpAxControl Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d71a37cb-9afe-4899-ba4a-5b3c7827aff0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b72a5990-3129-43aa-87fe-e12749cc0407">
+                    <propertyInstance
+                      Id="e7bd1e07-3aa7-45c1-ae77-750c754e8f33"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d3e8669-7223-4b34-9799-d353dce0a969">
+                    <propertyInstance
+                      Id="bd70b0ef-6aab-4427-be81-f19c2705d0a3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45908fd0-0e30-4012-bae4-48c2fb8ebb6a">
+                    <propertyInstance
+                      Id="2e98b742-d13c-4bfd-9edb-b5f98c20d656"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f22599af-3e81-4374-a636-9e46f8b79e17">
+                    <propertyInstance
+                      Id="382f756b-dcb7-4ec5-b048-e000f8543547"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cab2c56f-1f50-4bf9-808b-5b88e7619cf0">
+                    <propertyInstance
+                      Id="d27cf94c-4621-40fb-8c48-a5bcd5731285"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddc3bcf7-9e48-495f-bd53-43960b1a174c">
+                    <propertyInstance
+                      Id="677a32ba-6c79-4d6a-a5de-f11f21e4500a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
