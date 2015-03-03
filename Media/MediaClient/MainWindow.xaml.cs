@@ -50,13 +50,12 @@ namespace MediaClient
             tableViewSource.View.MoveCurrentToFirst();
         }
 
-        private void tableDataGrid_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
+        private void tableDataGrid_MouseUp(object sender, MouseButtonEventArgs e)
         {
             DataGrid grid = sender as DataGrid;
             System.Data.DataRowView row = grid.SelectedItem as System.Data.DataRowView;
             if (row != null)
                 axWmp.URL = row[4].ToString();
-            
         }
     }
 }
