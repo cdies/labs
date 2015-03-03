@@ -2,14 +2,14 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:MediaClient" x:Class="MediaClient.MainWindow"
-        Title="MediaPleer" Height="350" Width="399.4" Loaded="Window_Loaded">
+        Title="MediaPleer" Height="350" MinWidth="400" Loaded="Window_Loaded" Width="353.435">
     <Window.Resources>
         <local:MediaDbDataSet x:Key="mediaDbDataSet"/>
         <CollectionViewSource x:Key="tableViewSource" Source="{Binding Table, Source={StaticResource mediaDbDataSet}}"/>
 
     </Window.Resources>
-    <Grid DataContext="{StaticResource tableViewSource}">
-        <Grid Name="grid1"  HorizontalAlignment="Left" Height="136" Margin="10,10,0,0" VerticalAlignment="Top" Width="373" RenderTransformOrigin="0.532,-0.598">
+    <Grid DataContext="{StaticResource tableViewSource}" Width="395" HorizontalAlignment="Left" Margin="0,0,0,0.4">
+        <Grid Name="grid1"  HorizontalAlignment="Left" Height="136" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.532,-0.598" Width="365" >
             <Grid.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -19,7 +19,7 @@
                 </TransformGroup>
             </Grid.RenderTransform>
         </Grid>
-        <DataGrid x:Name="tableDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="10,151,9.8,10.4" RowDetailsVisibilityMode="VisibleWhenSelected" SelectedCellsChanged="tableDataGrid_SelectedCellsChanged" IsReadOnly="True" SelectionMode="Single" ColumnWidth="Auto">
+        <DataGrid x:Name="tableDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="10,152,0,10" RowDetailsVisibilityMode="VisibleWhenSelected" SelectedCellsChanged="tableDataGrid_SelectedCellsChanged" IsReadOnly="True" SelectionMode="Single" ColumnWidth="Auto" Width="365" HorizontalAlignment="Left">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="idColumn" Binding="{Binding Id}" Header="Id" IsReadOnly="True" Width="3*"/>
                 <DataGridTextColumn x:Name="vocalistColumn" Binding="{Binding Vocalist}" Header="Vocalist" Width="10*"/>

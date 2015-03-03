@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\labs\Media\MediaClient\obj\Debug\
+c:\labs\media\MediaClient\obj\Debug\
 MediaClient
 none
 false
 DEBUG;TRACE
-C:\labs\Media\MediaClient\App.xaml
+c:\labs\media\MediaClient\App.xaml
 11151548125
 2155708528
 10-2093339087
-28-716777929
+28-534652249
 MainWindow.xaml;
 
 False

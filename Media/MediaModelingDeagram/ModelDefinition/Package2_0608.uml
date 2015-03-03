@@ -877,5 +877,11 @@
         </appliedStereotypesInternal>
       </Interface>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="edf5b043-8dfe-4d15-8c4a-38aa6a0c300c"
+        LastKnownName="SqlClient"
+        LastKnownLocation="Package_0818.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

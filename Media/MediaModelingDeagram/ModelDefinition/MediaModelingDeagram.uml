@@ -42,12 +42,6 @@
         LastKnownName="AxWMPLib"
         LastKnownLocation="Package11_0608.uml" />
     </packageHasNamedElement>
-    <packageHasNamedElement>
-      <packageMoniker
-        Id="2f58d8b7-6917-4f28-aab5-a4550e647526"
-        LastKnownName="WmpAxLib"
-        LastKnownLocation="Package_0612.uml" />
-    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

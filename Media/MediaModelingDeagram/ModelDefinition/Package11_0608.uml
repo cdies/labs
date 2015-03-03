@@ -29,7 +29,7 @@
         <referencesInternal>
           <reference
             Id="9a6090a7-1e72-4399-b765-052e6d8698a4"
-            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fobj%2FDebug%2FAxInterop.WMPLib.dll Namespace%3DAxWMPLib Type%3DAxWindowsMediaPlayer"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FWmpAxLib%2Fbin%2FDebug%2FAxInterop.WMPLib.dll Namespace%3DAxWMPLib Type%3DAxWindowsMediaPlayer"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>

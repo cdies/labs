@@ -9,3 +9,4 @@ C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.WmpAxControl.resources
 C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.csproj.GenerateResource.Cache
 C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.dll
 C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.pdb
+C:\labs\Media\WmpAxLib\obj\Debug\WmpAxLib.csprojResolveAssemblyReference.cache
