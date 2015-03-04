@@ -1,0 +1,6 @@
+C:\labs\Media\MediaUnitTestProject\bin\Debug\MediaUnitTestProject.dll.config
+C:\labs\Media\MediaUnitTestProject\bin\Debug\MediaUnitTestProject.dll
+C:\labs\Media\MediaUnitTestProject\bin\Debug\MediaUnitTestProject.pdb
+C:\labs\Media\MediaUnitTestProject\obj\Debug\MediaUnitTestProject.csprojResolveAssemblyReference.cache
+C:\labs\Media\MediaUnitTestProject\obj\Debug\MediaUnitTestProject.dll
+C:\labs\Media\MediaUnitTestProject\obj\Debug\MediaUnitTestProject.pdb
