@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6fea2e4a-d235-4008-8321-527f799fa3ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:40586/MediaService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MediaService.disco" MetadataType="Disco" ID="6d96dc78-705d-4980-9cb9-0632d28a5ced" SourceId="1" SourceUrl="http://localhost:40586/MediaService.svc?disco" />
+    <MetadataFile FileName="MediaService.xsd" MetadataType="Schema" ID="a4d22352-bcd4-45e5-a294-45e5dc2c86b5" SourceId="1" SourceUrl="http://localhost:40586/MediaService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MediaService1.xsd" MetadataType="Schema" ID="fd0a14fe-3ffb-40e6-abad-a4bcdf83e26e" SourceId="1" SourceUrl="http://localhost:40586/MediaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MediaService2.xsd" MetadataType="Schema" ID="53a04bb7-a7be-4d17-ade4-a0acaf36cd50" SourceId="1" SourceUrl="http://localhost:40586/MediaService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MediaService.wsdl" MetadataType="Wsdl" ID="1d8d2fe8-1fc2-4d0f-af0b-971a02341e37" SourceId="1" SourceUrl="http://localhost:40586/MediaService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

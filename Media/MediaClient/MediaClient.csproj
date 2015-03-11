@@ -66,6 +66,7 @@
     <Reference Include="System.Printing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -87,18 +88,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="MediaDbDataSet.Designer.cs">
+    <Compile Include="Service References\MediaServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MediaDbDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="MediaModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MediaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Table.cs">
-      <DependentUpon>MediaModel.tt</DependentUpon>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -114,16 +107,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MediaModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MediaModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MediaModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MediaModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -141,40 +124,25 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="MediaModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MediaModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="MediaDbDataSet.xsc">
-      <DependentUpon>MediaDbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="MediaDbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MediaDbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="MediaDbDataSet.xss">
-      <DependentUpon>MediaDbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="MediaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MediaModel.edmx</DependentUpon>
-      <LastGenOutput>MediaModel.Context.cs</LastGenOutput>
-    </None>
-    <None Include="MediaModel.edmx.diagram">
-      <DependentUpon>MediaModel.edmx</DependentUpon>
-    </None>
-    <None Include="MediaModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MediaModel.edmx</DependentUpon>
-      <LastGenOutput>MediaModel.cs</LastGenOutput>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="Service References\MediaServiceReference\MediaClient.MediaServiceReference.MyTable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MediaServiceReference\MediaService.wsdl" />
+    <None Include="Service References\MediaServiceReference\MediaService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MediaServiceReference\MediaService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MediaServiceReference\MediaService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -197,15 +165,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MediaDb.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="MediaDb_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>MediaDb.mdf</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +172,27 @@
       <Project>{5c65b866-4445-4e13-b9f3-a686581d1f78}</Project>
       <Name>WmpAxLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MediaServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MediaServiceReference\MediaService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MediaServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MediaServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MediaServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

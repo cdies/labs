@@ -1,0 +1,2009 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f4ebb098-0aea-46cb-8e36-26a0438d3af0"
+  name="MediaWcfService"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5ab57159-6de7-44ab-aff7-e04814d2eb55"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMediaWcfService"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1b50688d-4f72-4b61-a485-59783d9ebd46"
+        name="MyTable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3b74d524-4d6a-4edf-88d3-0665729b100c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="11b2c0be-9259-40ca-9bca-1c4c74bb4497"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cefdbeca-f6aa-44de-bd90-e1f4adedadfa">
+                <propertyInstance
+                  Id="810a5a60-5bf6-4bde-b5af-a97dd742d390"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da5f443e-6744-4bd7-a86b-82d82777b476">
+                <propertyInstance
+                  Id="391c4ae8-4427-4c94-9db0-74b03942a94c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2dcdb23-0586-46df-b82d-b4d9f64293ee">
+                <propertyInstance
+                  Id="2a69070d-2a4e-47c5-998b-0fd16317586e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4edd35dc-fe26-4740-852c-03c0d29f3194">
+                <propertyInstance
+                  Id="00e9bcea-55eb-49ed-bfba-c50d867b240f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ed5368f-21e5-4890-9dc3-08a5d4beac6f">
+                <propertyInstance
+                  Id="3792c400-8161-4ee8-8153-44f060f7b885"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="db579b9d-dfe5-4280-9745-3407686ddb19"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="16e6dae6-11cd-464b-a99a-8823786a13f2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cb2116f3-1527-422f-aa07-9920ba36bcbc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92df192d-53bb-46ac-ac93-432b662efbfe">
+                    <propertyInstance
+                      Id="bdda3d69-e785-4277-bdb1-882338c3307f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6a1df5a-e6a6-44d2-bfa2-0821daa8e9c0">
+                    <propertyInstance
+                      Id="effa4792-3a88-47fc-8759-886c1c42c3fc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1da933a-1b07-4ed7-927b-25f3c447ba84">
+                    <propertyInstance
+                      Id="7b0be76f-f16f-477d-b531-fc5cc683af56"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9da3aa0-d99a-4ab4-8be4-8f2feb743775">
+                    <propertyInstance
+                      Id="91a4fbc8-152b-49fc-9738-84c9da914576"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad68c677-a22a-4309-9aa4-dfa0003dd9bd">
+                    <propertyInstance
+                      Id="df83c1e4-e383-4e57-b6aa-94f47632bc92"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d785ef05-1e6b-463c-9140-896b771ef76f">
+                    <propertyInstance
+                      Id="b50bfb17-5933-4c8a-967d-e60a14b1eccb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a879d31a-a2cc-480d-b635-5a2f220542a2">
+                    <propertyInstance
+                      Id="92ec1227-b970-4319-9d0e-20001ecff510"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="MediaModelingDeagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="31e0dde8-917a-4c66-bfee-0c449106c95b"
+            name="Vocalist"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="278fc0ef-ed2c-4546-8c6d-10b2f28eb654"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3DVocalist"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ae704d2c-5f5e-48cb-8654-485236332efb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0315f416-dffb-41f4-ac36-01d67831cff4">
+                    <propertyInstance
+                      Id="f6b16c7e-637f-49b5-b772-005a02a007ee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60239999-b6ce-4eb6-ade0-e4e249267624">
+                    <propertyInstance
+                      Id="44000046-9ec9-4a33-bb03-24ec7fc91f13"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="941c2371-e3c2-4d2d-9c58-ef0c839d10ac">
+                    <propertyInstance
+                      Id="80bdd6ee-1946-4879-b06b-004129f73bd2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83d911da-1d5f-4f78-b2af-e81978affbfb">
+                    <propertyInstance
+                      Id="c6e7b49b-e90d-49cd-ad0f-3c24a7ffc687"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27d14d99-b516-498a-afb9-122b285c79e0">
+                    <propertyInstance
+                      Id="8a99d887-2f03-47fa-87ef-a755864b3221"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1c8321b-db65-4490-924f-caedb82affc2">
+                    <propertyInstance
+                      Id="7a4db054-cdda-46fc-b73a-290ffc0d6e19"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8492afac-5b23-45e5-a789-1e30ef9f05b1">
+                    <propertyInstance
+                      Id="c0db1bb6-776a-4f95-aa88-d84aed470dbc"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="MediaModelingDeagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b9e16b65-a897-4f80-9790-4b4ff10de00a"
+            name="Album"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d901399e-7288-4e4a-aedc-f91b7640f227"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3DAlbum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8b21f270-32b2-4d02-a804-4452e0f57f6b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0af905ea-8013-4a97-9e4b-1d0dec9268d7">
+                    <propertyInstance
+                      Id="c0beb090-85aa-4b7e-80dc-773ff76103f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5208d7ef-75d8-471b-8491-4a64359f32be">
+                    <propertyInstance
+                      Id="a5e312a6-2804-4686-b9c8-9cc25b1cbfe1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="221137eb-e7c7-428b-a389-570f7badac69">
+                    <propertyInstance
+                      Id="8203d2c7-ece4-4a60-a9c1-4600796d9c37"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0068c9a5-9c40-4fad-a15a-8ddccd90f95d">
+                    <propertyInstance
+                      Id="e96d3773-9d4f-411a-af60-b8543b858482"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8eb45e3-465f-4c71-9ef0-407ff01b0487">
+                    <propertyInstance
+                      Id="206a0df9-d619-48d8-bdb3-050c2a835bb5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d83d242e-3ae1-4c5c-96a7-791272a926b9">
+                    <propertyInstance
+                      Id="4d173216-ebb1-4825-af1f-80aa1ebef0df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="393661aa-48b6-4791-a3b1-0c63e8727784">
+                    <propertyInstance
+                      Id="7ef420cc-ae9e-444a-9de8-2bb02ebc26e4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="MediaModelingDeagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f982fd4c-638f-4038-a3a2-21e9c65905ce"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c777e8c4-2051-42b8-abe6-79445d807318"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e42f681b-3eeb-49d9-95cf-40e12d36e999"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8245927-ad3d-476b-a8a2-59afcdb07b87">
+                    <propertyInstance
+                      Id="578e6ac0-28db-44a4-b970-0e2e8b213c6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98828695-dca7-4645-9798-c773946aea64">
+                    <propertyInstance
+                      Id="2378d38f-ede9-4a7c-acd3-89bbcac192a7"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd1b898b-3eda-4ffb-b886-2d67ae78cbab">
+                    <propertyInstance
+                      Id="3b95614c-d938-4624-9cd0-7848370f771b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d297078-4d61-4141-a758-4e692258afac">
+                    <propertyInstance
+                      Id="5701fc86-ab92-4f8d-880a-6d36348c81fd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f134f1c2-6683-4ad7-889d-591a536a6ecf">
+                    <propertyInstance
+                      Id="f1eee430-1ba3-4174-b6d2-4a9860d769d7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4ce2017-2d0d-4a26-ac4f-c19e4cc07472">
+                    <propertyInstance
+                      Id="ae050088-fe14-4c21-8925-beb77f8f0312"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="638991e3-4c89-4cb2-bc6d-b256f9b7ec25">
+                    <propertyInstance
+                      Id="a7af69b8-c521-49e3-b071-b9c2d417a46c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="MediaModelingDeagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e002a763-de08-4623-a1f1-874952da527b"
+            name="Path"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="613ac5d3-00a9-4386-a6d0-c865d194b676"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3DPath"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aa2d98ad-2920-4cf0-911a-ceb2b23dd721"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f362e15-f7c6-4cc8-849b-02992405a23c">
+                    <propertyInstance
+                      Id="de1c1579-cfc1-4f51-b3af-4e13cc15fe5c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba14ccb2-aaea-4cac-84f5-445f6fadb3e7">
+                    <propertyInstance
+                      Id="9017d4a7-9261-4828-815d-68f956fc2387"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15121f4d-996a-495e-b58a-24a9077a6162">
+                    <propertyInstance
+                      Id="b9629f17-0450-48e3-ad41-c8fd4aff4aea"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14e9c672-c8de-4584-8797-52c12a57b8ad">
+                    <propertyInstance
+                      Id="f5b6cc30-1089-409c-b8ad-2468a3a50f4b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f366c062-9502-46c8-8831-dd0d689ecd95">
+                    <propertyInstance
+                      Id="828afdd8-3f29-494f-9be5-31c641f8b440"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b1bbec4-e0e4-4288-84ae-2f77c2ebbb23">
+                    <propertyInstance
+                      Id="9d62e0cf-ab0d-446a-a8ef-0fd751f7c895"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27395c94-e066-4847-8730-5773341c655a">
+                    <propertyInstance
+                      Id="f9e6502a-a3a3-44c8-8113-3c892a88213a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="MediaModelingDeagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b2e7e7c7-05e2-41f8-9764-ac27641892b3"
+            name="Length"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="943f3394-2ac2-4531-bb50-ccfaedafcb6c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3DLength"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc7eae84-763b-4302-b6f0-89f53559e872"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2624c191-b512-400f-9c8e-a7515cf1bde2">
+                    <propertyInstance
+                      Id="fbbccd78-5fd0-4100-abc1-ed3f5882980b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a89cf38-761c-441b-b0d4-62988cb077fe">
+                    <propertyInstance
+                      Id="0a090470-6739-451f-a672-3a0feeb12cea"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8f432d4-699a-48b2-993b-1430daf01661">
+                    <propertyInstance
+                      Id="ca0516a5-bd68-4948-a6ba-13d3042bacbd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae8c1322-4199-4547-96f9-02d1de4fc41d">
+                    <propertyInstance
+                      Id="e2a1dd9a-bded-47f2-bdf3-ffda70069836"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="899e1ebf-9c5f-47ad-b243-0dedb65260b3">
+                    <propertyInstance
+                      Id="d6a4791a-6b76-4c1d-8888-47c8daa85f58"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f523f231-9aeb-41d9-b01d-763f85cc7645">
+                    <propertyInstance
+                      Id="7ac9fd50-b0a4-43d6-b381-c06b29bc3ed8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a572d3e-ce71-41d0-96be-4f922cc983ec">
+                    <propertyInstance
+                      Id="da5692e4-6823-453e-bc6d-49f70a1b5ae6"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="MediaModelingDeagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8d206f43-22b8-4598-b249-af2bef168e50"
+            name="MyTable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ce7d0f27-af20-4f74-84c3-5dea6ce3f444"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMyTable Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d66a789e-a0ed-40b8-abf6-bf916fba1edb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1caa027-1418-4640-b4b1-43357c8207fc">
+                    <propertyInstance
+                      Id="d79f3fdc-bed1-4b48-89f8-9dce298d3f7a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f99bd78-b0e2-4006-a11a-d0e515f61733">
+                    <propertyInstance
+                      Id="a3bc0339-df9d-460e-8f3b-c6f8fa419b31"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77cc1760-9772-4159-97b0-dd90ac109a7a">
+                    <propertyInstance
+                      Id="947e9459-5703-446c-9f10-a048f86572e9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66e5b644-3581-40f0-93d9-13d72d36b6e8">
+                    <propertyInstance
+                      Id="ed436ba1-7fd5-4028-a4fd-613e606f563c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="348d5ed2-c605-48ef-922f-12fbbf83364f">
+                    <propertyInstance
+                      Id="1add737a-7ca6-46f5-973d-237126cc9984"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d03a6dcf-6c74-4362-8d37-20a3c8235b66">
+                    <propertyInstance
+                      Id="6d25656d-984a-48cd-bb3f-b3e265ea48f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="752bb44b-9525-4bf2-bb82-2ed57669173c"
+        name="IMediaService"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="dd044171-1ed9-4b39-a209-c095f817faca"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DIMediaService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="017fe63b-d816-456a-beda-56fd0a5075c6"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7753c94b-d88b-44ef-be02-6237d3a4b540">
+                <propertyInstance
+                  Id="57f8249c-85e7-4bdd-9f81-49546c65273c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c92009d5-477e-4716-b60d-6cf31abb9ad8">
+                <propertyInstance
+                  Id="7b75105f-a335-41f4-bfc7-4b495cbb0d86"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fb33030-d397-459b-aa7e-00561a3f7b7f">
+                <propertyInstance
+                  Id="34850a97-481f-4441-9e77-31b059cc5b18"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28706008-e326-4c32-965a-b67111b3e465">
+                <propertyInstance
+                  Id="ccbd1a83-8417-4c69-9198-862bff976a7c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="f878b219-649f-42b4-b65d-86fcc861fed4"
+            name="GetTable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f5a99872-d863-43ec-87c2-a3eb06554c04"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DIMediaService Member%3DGetTable"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5f1a5489-242b-4507-b232-9df6e44326a6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="738908c9-4801-4eb7-a4a8-0e51d9650e69">
+                    <propertyInstance
+                      Id="9dcb54f3-780c-43aa-9345-4b4925fa6bda"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4243a9e-9933-44af-99eb-e52737147e0e">
+                    <propertyInstance
+                      Id="42c54093-1e55-4228-ab75-443902c0effb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="848afe42-07c1-4bf8-a3aa-111cf0d7a7d1">
+                    <propertyInstance
+                      Id="8c701ed6-729f-413d-860d-4e607ec5f0a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62a94b1b-c1aa-4758-8b3a-b43963742441">
+                    <propertyInstance
+                      Id="aaff580e-ff5f-4a6c-bc20-a82699d5b998"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9a15e10-cbe5-4575-8f3e-a0f49c4f90eb">
+                    <propertyInstance
+                      Id="17816c7e-e262-4570-91b7-86eb7d7546a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8da89839-85de-4d4a-a7f9-cea030b5db79">
+                    <propertyInstance
+                      Id="b4ec84e2-4c44-4f46-9845-56299e4b0a0d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9058105f-9cc8-4b4b-a3fa-0eed6a83d5bf"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3dc58e0d-c9dd-4c45-bb5b-db31ea08b6ec"
+                      LastKnownName="List&lt;MyTable‎&gt;"
+                      LastKnownLocation="Package4_0612.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f64e071f-ff2f-417f-b4c8-38db0da977ce"
+        name="MediaDataClassesDataContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ac9b7396-4e7b-4d29-9ba3-2a9754faa616"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4e70b400-630f-4bd4-b7e0-55e93a451623"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e9ae984-4920-446f-956d-2e4e272369c3">
+                <propertyInstance
+                  Id="e3192a78-d2a0-464b-b61d-69d1655459f8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="020ada54-9a27-414f-ad65-a397961ee0db">
+                <propertyInstance
+                  Id="84215761-8f71-4147-91c7-b5f10fec5eb3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c049679b-987c-406b-b6e9-85f1852ba471">
+                <propertyInstance
+                  Id="1c4555d0-2b65-4070-a9a1-de8f6135986e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d9e6dc9-360f-4908-99e9-cd574ff6324b">
+                <propertyInstance
+                  Id="9837643a-281f-401d-964c-7e5002c09789"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="316e6fa6-3df4-4093-93c3-37fce50035b3">
+                <propertyInstance
+                  Id="e655f75d-a22f-47a5-9cc5-5069084da642"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="0bba5b9d-11eb-48a7-acf4-9fb31a0782f0"
+            isSubstitutable="false">
+            <classMoniker
+              Id="ac53fd7f-dd6b-42d5-a22f-38e46365a2a2"
+              LastKnownName="DataContext"
+              LastKnownLocation="Package1_1240.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="40c467b9-3c0b-4e3a-9bcc-e73682f0ad26"
+            isDerived="false"
+            sourceEndRoleName="MediaDataClassesDataContext"
+            targetEndRoleName="MediaTables"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="731518b5-cfb9-402d-b101-0576a60f17ba"
+              LastKnownName="Table&lt;MediaTable‎&gt;"
+              LastKnownLocation="Package1_1240.uml" />
+            <description>Property MediaTables references type Table&lt;MediaTable‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0cab13e1-d028-434c-a4ab-5fef4d8a76bf"
+                  name="MediaDataClassesDataContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6560f310-432c-46c6-8792-917b48ff8402"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fd6a3546-0bab-4c24-9c15-fc6edb8fde71"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="27450ca3-22b1-4c0e-8c1a-a549bb18aa17"
+                  name="MediaTables"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="bc66f5a7-66f3-4bf1-9aba-20fbe3adb42e"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ae2b729d-146b-471a-b71d-384c99f93e4d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="02df5792-4dc7-4331-914b-428b9fe3f60b"
+            name="MediaTables"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="328e0b27-28a1-4507-bda5-a4754b49b3b4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3DMediaTables"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="14ecfaf5-846c-4c48-99bc-2ba42211ba89"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9af209d-ec1d-45f2-8268-12de53dc0487">
+                    <propertyInstance
+                      Id="4687a5ef-a6b6-4235-a217-586c80909a6b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82407d26-6ab1-4ddc-9065-c88f7ee8247a">
+                    <propertyInstance
+                      Id="be1010dc-0d24-4fcb-ae80-62a574b6b374"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aaef208e-444d-4386-bc94-0048e6536760">
+                    <propertyInstance
+                      Id="4aa807b5-e5c9-48e6-ba85-8a0a58920665"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42aa3d90-ed2c-4c65-b100-8b082d0bc8d1">
+                    <propertyInstance
+                      Id="6f857686-e54e-414c-b490-18e4c40cb0fe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ac61947-853f-4337-87ae-b44e6af4bc3b">
+                    <propertyInstance
+                      Id="8cd7a47e-d468-4767-b8d6-bd23fd4ea6e2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fee3bdb-7e96-42ff-a952-30881a1324e9">
+                    <propertyInstance
+                      Id="05ff6979-1bf4-425b-81e9-fae768bd8a6b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6457201-c9ff-455e-aab9-2d5a3b2af8cd">
+                    <propertyInstance
+                      Id="1c8cc3d9-23f8-420b-99a6-31db12b15f5c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="731518b5-cfb9-402d-b101-0576a60f17ba"
+                LastKnownName="Table&lt;MediaTable‎&gt;"
+                LastKnownLocation="Package1_1240.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1d3e3c23-91a9-439b-ac1f-7f2414a08c3b"
+            name="mappingSource"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="22971398-dec9-4d82-8c08-a3a76757431b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3DmappingSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4ca094a-17f1-4704-8e11-f776112c05c5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf8be5ae-1650-41b5-a6a1-79f78aa8415d">
+                    <propertyInstance
+                      Id="b42ea392-138f-4e2a-8d05-112830d29179"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad434261-3da2-484c-ac2d-36b4a2d4b367">
+                    <propertyInstance
+                      Id="3106c0f8-b7d8-4e4d-904f-4b38e0fa8812"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b565270-e90a-4163-9c20-2f36ca6b6ae3">
+                    <propertyInstance
+                      Id="bdbfce9e-e87b-407a-a52e-518b4690bf7a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40fd7d5e-9bae-48aa-a432-4df208f95f79">
+                    <propertyInstance
+                      Id="232f00ac-b00e-4675-89c1-6a9b9e6d34d0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35f7bb53-24c2-4fc0-bafb-9d23f0d003f4">
+                    <propertyInstance
+                      Id="229c58a0-91d4-427d-bf93-b634e9edb034"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d0b9461b-8695-47d1-8fae-67b59fbc75aa"
+                LastKnownName="MappingSource"
+                LastKnownLocation="Package2_1240.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2021e4ca-522d-47d6-83c1-7d7a325cd722"
+            name="OnCreated"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="444144fd-af16-4ead-a131-41a565a22655"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3DOnCreated"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7a892cba-891d-42aa-918e-355c63ed73ce"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="801e0b3c-1006-48b8-8933-1cd0947c0934">
+                    <propertyInstance
+                      Id="a603361c-ab7b-400c-8e90-7d7f8a9dc632"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77aa0b3c-b924-4b02-981f-104d9104b5ba">
+                    <propertyInstance
+                      Id="a20c39ea-91b7-43f6-9cf8-32a6c8d85bdd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18e09f6d-a10f-443b-b902-cfd56d82b911">
+                    <propertyInstance
+                      Id="19fa18f5-ae7e-4701-a774-fcbd50ce1427"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9716cd4-c53d-467e-b7d4-a854ab155749">
+                    <propertyInstance
+                      Id="31f87ee9-8fa7-467a-9f40-9d03f2eba17b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b61f3262-b4cb-40a1-84d7-741efdb85069">
+                    <propertyInstance
+                      Id="4d715696-01b3-47f6-ba95-989102a06f28"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a09d682-5f51-4d5b-b28d-e9a2450193a2">
+                    <propertyInstance
+                      Id="dd0dc220-fb8d-4718-8946-84dbf75ec5bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f50335ae-9e93-44cc-982b-897d1c065c8c"
+            name="InsertMediaTable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d4ad0df0-feee-4402-841c-faad9e35598a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3DInsertMediaTable OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaTable)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc64972c-03c3-4ea7-8c22-963a3e4aa982"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96678133-4d8b-45e5-9fdb-d14688fdea6e">
+                    <propertyInstance
+                      Id="3c6e1834-c47a-4bee-8498-7bd4ae196369"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a37a241-9de8-497f-9e2e-2939c3511108">
+                    <propertyInstance
+                      Id="94359b35-36c9-44b2-9177-12dde051fcb6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e6aaa18-17cc-4ee3-82e5-cf5cc6c46632">
+                    <propertyInstance
+                      Id="43aa812b-9733-4987-ade3-d09c98df1873"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c9405ed-d3db-4d12-97bf-6d91c4fb5b95">
+                    <propertyInstance
+                      Id="ea4a1529-aecd-4c4c-9a14-bb9698b5c464"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1fbc50b-eba9-4e28-80f5-25fcff989db8">
+                    <propertyInstance
+                      Id="7b79b276-642d-4b56-81f1-143c72880f79"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81326523-8a09-4326-976b-c246ad5052dc">
+                    <propertyInstance
+                      Id="93d5eb6e-1c40-4c23-8a89-211621b3cd79"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="860d96aa-362a-4f3a-8537-72e16cd5a378"
+                  name="instance"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3e5adbb2-f28c-4cce-b9b6-7c9abe7eef3d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3DInsertMediaTable OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaTable)]) ParameterIdentifier%3Dinstance"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0d92663b-e1f3-4138-8ffe-be0c58ba47b2"
+            name="UpdateMediaTable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cdb81994-d725-4bb7-b6d0-3d6a4e000419"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3DUpdateMediaTable OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaTable)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c6954c9e-07fe-4b6a-8683-1f5d048a13fa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99bcd576-901f-408e-9c26-62544dacc93d">
+                    <propertyInstance
+                      Id="619fffad-eda4-4cc6-b4e0-a34e34dd3863"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca0a8b11-7b18-444e-88f9-7a119ae9021e">
+                    <propertyInstance
+                      Id="8d7eba12-d892-4c87-be34-1ab962f3550b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb87165c-3f32-43c8-9b89-2c861472981f">
+                    <propertyInstance
+                      Id="ec5cf081-1b92-443e-b2a9-51c64cb365fe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="653ff34f-032a-4242-81e8-be932cee0d02">
+                    <propertyInstance
+                      Id="2e6a6d08-8dfb-46e0-b001-266bbbb79ac6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5c6b3f9-1acd-4caf-8fc9-808261105289">
+                    <propertyInstance
+                      Id="a4a178a9-c89f-49c5-8a23-d0d0476ef973"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f530695c-dd0c-46af-a487-b611f2c95ec1">
+                    <propertyInstance
+                      Id="ee52906a-75fb-4867-a723-a1e3c0a3f78e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2bffc4da-97d6-4b35-ad76-7c03c24bb54f"
+                  name="instance"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="47561b05-129e-41ba-89a8-8656969d70d0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3DUpdateMediaTable OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaTable)]) ParameterIdentifier%3Dinstance"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="76d06e00-f9d3-43ab-80a8-a57092c299da"
+            name="DeleteMediaTable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b9161bf-6abf-48f6-aa89-e9cb9d819621"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3DDeleteMediaTable OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaTable)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d50f195b-6aba-48e9-b152-13fc7aa475f7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1315ade5-862e-4bac-a6f9-a29c3041b569">
+                    <propertyInstance
+                      Id="912c4dab-0649-49c8-bf29-d4f8f6a3422f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0553dddd-a046-4a9a-9d4a-807b904703ff">
+                    <propertyInstance
+                      Id="7953a63c-970f-4bf5-824c-ddf88da1046f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24cd9df2-056d-4026-b40b-f5769815ff56">
+                    <propertyInstance
+                      Id="5707514c-3dbe-4df5-a958-f1993d4ff252"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bc06570-6a06-44ec-8848-069c337b01c3">
+                    <propertyInstance
+                      Id="58c33e30-aa53-444d-a7c4-d4a447a1e783"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f54d7ac-101d-4dd4-95b6-0cd37107d5bc">
+                    <propertyInstance
+                      Id="3bafb7d3-1cc1-4baf-a456-1fd5e0c9d0a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3df6893b-c8dc-43c5-90d2-c61f1b1e8c38">
+                    <propertyInstance
+                      Id="a3657057-dc1b-4421-ac50-367f4c2b5eb5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="40a4465c-c86a-4751-a59d-4b3dd4954977"
+                  name="instance"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b12bd1ec-d699-4fe2-b8f5-c27288dc1f94"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3DDeleteMediaTable OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaTable)]) ParameterIdentifier%3Dinstance"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d92e8da4-f846-455c-abbd-87ff9b29eeec"
+            name="MediaDataClassesDataContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e36b9d3d-93d4-4fc0-891f-6b1c6ab53e64"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f56c84b6-69ab-4c1e-9cc7-f16edecc95b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0122954-d712-4dad-8a8f-41b7487b0157">
+                    <propertyInstance
+                      Id="1144c762-4603-42ba-b192-4ef974862be0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbbe92a3-bfc0-4ac6-98f4-6f8746f59a73">
+                    <propertyInstance
+                      Id="d4d00728-67b3-4e22-a44c-7a373f9a15c7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12780d2c-9ab3-49b9-bb7a-ebf614ae34d6">
+                    <propertyInstance
+                      Id="a9d08cec-5eee-4721-8072-dc36c2b51177"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9934f425-17f3-459e-a1f5-83805964b575">
+                    <propertyInstance
+                      Id="66274b9c-16d5-4f3c-b6bb-d0349f7481c4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0634424b-7faf-4db7-a4d0-b759c2635997">
+                    <propertyInstance
+                      Id="704b3eb4-ba92-4a08-9e51-de7abcbb70fc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1216d2e-879d-4dd9-962e-fc5db473f6cb">
+                    <propertyInstance
+                      Id="b86af555-00dd-4014-9651-4a979cc23cd4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3e97f04e-c336-49a3-afdd-08ed874fc03f"
+            name="MediaDataClassesDataContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ba29aa23-f009-4cd3-a47d-644cbf7b4cf5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e5b3506-6962-41c3-b0d2-9fb497edf0f7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3bd1f12-6347-49ce-9216-a776489670da">
+                    <propertyInstance
+                      Id="3118a6ce-f800-48e3-bb5c-a44b8d082ee4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f98c6f6-dbbc-4749-89d1-0487019bf08d">
+                    <propertyInstance
+                      Id="718230c8-a9a6-4675-a215-7ad43b794e04"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d917454a-8e26-4131-8bf1-a676f0aa8b72">
+                    <propertyInstance
+                      Id="0afd9d02-3224-43db-be71-647b2ebe3ee9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="318e9d7b-c1e6-4244-bb9d-2d76e0992f1f">
+                    <propertyInstance
+                      Id="4914526f-bc0f-46b2-bcc1-8e7398850991"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61de136a-f2fd-4045-91f7-8f0ddef2d7e8">
+                    <propertyInstance
+                      Id="9e63c0ec-8591-4a86-800f-49d4fa9b85a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26495c1b-3135-4b16-b7ae-175b4cd68428">
+                    <propertyInstance
+                      Id="7225e4ba-47db-4460-8035-a801f3be9ce8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a1a64c7-4b4a-41e0-908d-433f77eccf63"
+                  name="connection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d8899d1c-081a-4642-b076-76efd328d366"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dconnection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MediaModelingDeagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a342df7a-d85d-4f14-8819-e279f6499cd2"
+            name="MediaDataClassesDataContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b399af21-9470-4659-9d45-b7c59b723639"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DIDbConnection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e43db315-9269-4162-951c-a9da71c4bc8e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8d510cf-58b1-49ad-a7ac-2a8e5be6dd7e">
+                    <propertyInstance
+                      Id="474164e9-395e-4511-b3ed-c6858afb1030"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21e1f1be-8f6a-46f5-882f-620a03539b3e">
+                    <propertyInstance
+                      Id="d83a88e7-1e4f-47eb-88d3-69b74fab63ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a832edaf-746f-4545-800a-1237080afdfb">
+                    <propertyInstance
+                      Id="bcaceb5e-2e60-4cc9-91c4-7e85c885f21d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd509efc-7a0c-44c9-bc98-784765f7165e">
+                    <propertyInstance
+                      Id="f32b5c96-f843-40ae-aed7-5ae8c9d8c7eb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2d5af96-bc96-4654-adc2-6ce3d95ec096">
+                    <propertyInstance
+                      Id="e1adc69e-10c4-4dc8-bc2c-3cce90ccd113"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5533ca0-39c3-490a-b730-e351aa963238">
+                    <propertyInstance
+                      Id="09a24f47-6fd1-4f83-9ce3-30456da6c92e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f4f3dd7b-506d-4847-8e01-7f494b49821e"
+                  name="connection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c838aedc-8777-4a44-b9c8-9bcd000ba395"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DIDbConnection)]) ParameterIdentifier%3Dconnection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="77ab302d-6688-4b61-9a19-795f0acaf167"
+                      LastKnownName="IDbConnection"
+                      LastKnownLocation="Package2_0608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e7fb7482-567f-4f63-a8e8-1d2a4b6f9463"
+            name="MediaDataClassesDataContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d15261b3-cd2a-4f4d-b77b-a08459756e70"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.Linq.dll&quot; Namespace%3DSystem.Data.Linq.Mapping Type%3DMappingSource)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e1e3c654-0daf-4a5d-9e29-b882fe739363"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9059dbdf-0bfb-431c-8dc5-c92d53973428">
+                    <propertyInstance
+                      Id="1069ff15-55bb-445b-bc2d-fd22f1313fb2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a9f07a1-cade-4596-ae59-add314a8cafe">
+                    <propertyInstance
+                      Id="a1d7e593-a7ec-4ffc-a15a-7e66882b6025"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="707db2fc-5114-4c56-9a05-b74f2f3cf933">
+                    <propertyInstance
+                      Id="2551166f-4ac7-4ffe-ba9b-fffbfc3bc32e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ea97766-5724-4309-b683-10a17a62cef2">
+                    <propertyInstance
+                      Id="68f5b013-fd97-4133-b494-f4656e0b69f8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34f5e6ae-9069-4541-9fd3-2eab746bf298">
+                    <propertyInstance
+                      Id="1b0cd2e9-8fab-43f4-9684-d0e9c261be80"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a74d8260-1831-4f39-97f7-746937e5e755">
+                    <propertyInstance
+                      Id="2a0567d3-6818-488f-a619-fa548418e771"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="68fc8466-84d9-4113-b9be-54bcc2a8f45c"
+                  name="connection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="109b7d6a-60db-46db-88ea-32181cc36e98"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.Linq.dll&quot; Namespace%3DSystem.Data.Linq.Mapping Type%3DMappingSource)]) ParameterIdentifier%3Dconnection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MediaModelingDeagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a186fa40-0c71-426b-97e9-accdfc92f4fa"
+                  name="mappingSource"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="99599f42-1769-4857-855b-5fd727babf84"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.Linq.dll&quot; Namespace%3DSystem.Data.Linq.Mapping Type%3DMappingSource)]) ParameterIdentifier%3DmappingSource"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d0b9461b-8695-47d1-8fae-67b59fbc75aa"
+                      LastKnownName="MappingSource"
+                      LastKnownLocation="Package2_1240.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dd2e160c-3dd8-4789-87a3-262fdee1e25d"
+            name="MediaDataClassesDataContext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6ed2af84-27aa-4f70-82b9-7150df04f1d8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DIDbConnection)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.Linq.dll&quot; Namespace%3DSystem.Data.Linq.Mapping Type%3DMappingSource)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2df132a8-12ff-4514-ae28-274d107c8a12"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32951a34-bc98-4032-8915-9b5dec3fce12">
+                    <propertyInstance
+                      Id="ad9da1b4-b0ed-49f5-a9a3-1c341b29f165"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aab65860-d8f6-4551-b18c-eeb0c65665f8">
+                    <propertyInstance
+                      Id="a965e003-fa6a-46e1-9167-19f0a6160493"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="505bc6a2-d119-4760-99fd-695e9b2439f3">
+                    <propertyInstance
+                      Id="56a59a1a-eff7-47ec-a7cc-b93b43d7dd63"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f35f896c-4684-4af3-ad50-29fd8d046411">
+                    <propertyInstance
+                      Id="1668f8b2-f5cf-4e57-ba39-022f988a7818"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d24724d-4077-408a-854f-00a143ec9492">
+                    <propertyInstance
+                      Id="f46e277b-ceaf-4804-979f-2e6b2bc6db62"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a8afaef-efec-4612-92f0-0628400ba5fb">
+                    <propertyInstance
+                      Id="cb3eb2be-eb68-4f89-a5e5-7e339103b723"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4cce7535-bc5e-4b51-bd89-d746450cdbb2"
+                  name="connection"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4dcce3ff-8178-4644-adc6-dea533392cf5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DIDbConnection)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.Linq.dll&quot; Namespace%3DSystem.Data.Linq.Mapping Type%3DMappingSource)]) ParameterIdentifier%3Dconnection"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="77ab302d-6688-4b61-9a19-795f0acaf167"
+                      LastKnownName="IDbConnection"
+                      LastKnownLocation="Package2_0608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5bbfbda8-a58d-4a93-8fd6-a47a36114a71"
+                  name="mappingSource"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="823eaab3-0083-447d-84b5-1b0860c618b1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaDataClassesDataContext Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DIDbConnection)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.Linq.dll&quot; Namespace%3DSystem.Data.Linq.Mapping Type%3DMappingSource)]) ParameterIdentifier%3DmappingSource"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d0b9461b-8695-47d1-8fae-67b59fbc75aa"
+                      LastKnownName="MappingSource"
+                      LastKnownLocation="Package2_1240.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f12a746f-da66-4852-bfe1-bf927106c275"
+        name="MediaService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="777304ed-dafe-49eb-8011-88d574052599"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6ad776c3-982a-4e53-ac0c-d470f19506a5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2f48b907-e49f-43db-b5d5-26d3560c9802">
+                <propertyInstance
+                  Id="80572f0f-3173-4284-8c09-57f8cc0246f1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd851b1b-b82b-4e16-ad9e-18a93b3b70b8">
+                <propertyInstance
+                  Id="017e64eb-3b77-4d56-b578-cc6435b62932"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6317e98-c938-430c-bac3-9c154b178ac9">
+                <propertyInstance
+                  Id="a5f6907a-a6bc-4923-b1bb-f930ab3443cc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="646df92e-46e6-4fc4-98f0-e09f8463f2ca">
+                <propertyInstance
+                  Id="ee608bbd-9154-42da-951d-91067fb6a509"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bbc1cb15-8423-4ba1-8f09-8f76b0784106">
+                <propertyInstance
+                  Id="d4f7ff45-48f0-4781-931f-4a8d11bb70cb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="01a329ff-2b06-4a42-8889-3341dcc450e8">
+            <interfaceMoniker
+              Id="752bb44b-9525-4bf2-bb82-2ed57669173c"
+              LastKnownName="IMediaService"
+              LastKnownLocation="Package_1240.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="97edd07c-565d-429c-8838-72bee1a3ddc9"
+            name="GetTable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e6a921ce-5b06-4a73-b904-800cd5786028"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaService Member%3DGetTable"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28fbb884-71ab-4c50-9860-068c4ead6188"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9354defe-68a7-4fbf-811b-df2b6fdb5fb0">
+                    <propertyInstance
+                      Id="443faae0-d025-49f7-a2b1-f2cef4f030ad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f6fc609-4f0f-4ab9-83e8-c1ebd7ba4d75">
+                    <propertyInstance
+                      Id="eebd2645-db04-4aad-8f9d-c15a7f12ed2a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="688d10ad-098d-4a89-a82a-9f3fa13657bf">
+                    <propertyInstance
+                      Id="8850f5c5-ce87-43c6-bdd8-25caa34cfad7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57b1c593-9a71-4bec-a8d7-e729bceef703">
+                    <propertyInstance
+                      Id="6c3858e9-78f6-4be4-b351-afc7427a7547"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e55d389-9111-46cd-81d4-9f1ace1721f1">
+                    <propertyInstance
+                      Id="6d540e31-86ef-4936-8dac-ce1ccd91c511"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ff17209-92dd-481d-a433-9e65ac287cc4">
+                    <propertyInstance
+                      Id="ee2acbc5-1a6e-4deb-b02f-0bf8c4f2fcf4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e003925c-712c-448f-9705-c5a9652bc52e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3dc58e0d-c9dd-4c45-bb5b-db31ea08b6ec"
+                      LastKnownName="List&lt;MyTable‎&gt;"
+                      LastKnownLocation="Package4_0612.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="442f33fd-b8b2-4dfb-9789-29a900c34714"
+            name="MediaService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="39dc4e39-d3de-49f6-9d58-8cb44c2fa4ff"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Flabs%2FMedia%2FMediaWcfService%2Fbin%2FMediaWcfService.dll Namespace%3DMediaWcfService Type%3DMediaService Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a3252a2f-bbed-4c6a-91ce-58214b20e9c8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71b856b3-5713-4236-bf15-69a03e4fa9e3">
+                    <propertyInstance
+                      Id="2426ade3-b015-4863-8466-cad77aa79fa3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98dfc93b-6573-428e-9e61-6306fee3bcc2">
+                    <propertyInstance
+                      Id="367bee52-e13c-49e9-bd74-c94abd9ee90f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b435f6d7-44b6-4e89-8bb7-5ec77071a27d">
+                    <propertyInstance
+                      Id="da7132e9-e66b-44fc-9cad-c3cd6253254a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="661551dd-1dad-462e-af62-97a1b42cea1d">
+                    <propertyInstance
+                      Id="3ca20f02-495e-435f-a04a-bf44cec1588d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc51cd27-cbba-4970-9095-dc877f67b78c">
+                    <propertyInstance
+                      Id="f6b2d2f5-bb15-4d34-bb27-b88e44f89b77"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9efedf43-7e56-46c7-a3ba-c05f486fea17">
+                    <propertyInstance
+                      Id="81fd11c8-9c3b-490f-acfb-b5e5297fb3f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

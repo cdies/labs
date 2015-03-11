@@ -37,10 +37,13 @@
     <Content Include="ModelDefinition\Package1_0612.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_1240.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package2_0608.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModelDefinition\Package2_0612.uml">
+    <Content Include="ModelDefinition\Package2_1240.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package3_0608.uml">
@@ -77,6 +80,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_0818.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1240.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1244.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UMLClassDiagram1.classdiagram">

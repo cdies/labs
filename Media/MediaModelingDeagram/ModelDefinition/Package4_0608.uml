@@ -221,5 +221,11 @@
         LastKnownName="Forms"
         LastKnownLocation="Package1_0612.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="15579752-d8a2-4397-8962-3a6dfd797511"
+        LastKnownName="Input"
+        LastKnownLocation="Package_1244.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

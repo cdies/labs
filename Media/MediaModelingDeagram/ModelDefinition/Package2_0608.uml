@@ -883,5 +883,11 @@
         LastKnownName="SqlClient"
         LastKnownLocation="Package_0818.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1ea5b532-4a29-489e-9ac7-e100b30ec4d3"
+        LastKnownName="Linq"
+        LastKnownLocation="Package1_1240.uml" />
+    </packageHasNamedElement>
   </packagedElements>
 </package>

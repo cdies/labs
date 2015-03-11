@@ -42,6 +42,12 @@
         LastKnownName="AxWMPLib"
         LastKnownLocation="Package11_0608.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f4ebb098-0aea-46cb-8e36-26a0438d3af0"
+        LastKnownName="MediaWcfService"
+        LastKnownLocation="Package_1240.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

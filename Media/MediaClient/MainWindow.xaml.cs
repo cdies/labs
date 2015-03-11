@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MediaClient.MediaServiceReference;
+
 
 namespace MediaClient
 {
@@ -40,22 +43,20 @@ namespace MediaClient
             this.grid1.Children.Add(host);
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void tableDataGrid_Loaded(object sender, RoutedEventArgs e)
         {
-            MediaClient.MediaDbDataSet mediaDbDataSet = ((MediaClient.MediaDbDataSet)(this.FindResource("mediaDbDataSet")));
-            // Load data into the table Table. You can modify this code as needed.
-            MediaClient.MediaDbDataSetTableAdapters.TableTableAdapter mediaDbDataSetTableTableAdapter = new MediaClient.MediaDbDataSetTableAdapters.TableTableAdapter();
-            mediaDbDataSetTableTableAdapter.Fill(mediaDbDataSet.Table);
-            System.Windows.Data.CollectionViewSource tableViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("tableViewSource")));
-            tableViewSource.View.MoveCurrentToFirst();
+            DataGrid grid = sender as DataGrid;
+            MediaServiceClient client = new MediaServiceClient();
+            grid.ItemsSource = client.GetTable();
         }
 
         private void tableDataGrid_MouseUp(object sender, MouseButtonEventArgs e)
         {
             DataGrid grid = sender as DataGrid;
-            System.Data.DataRowView row = grid.SelectedItem as System.Data.DataRowView;
-            if (row != null)
-                axWmp.URL = row[4].ToString();
+            MyTable path = grid.SelectedItem as MyTable;
+            if (path != null)
+                axWmp.URL = System.IO.Path.GetDirectoryName(
+                    Assembly.GetExecutingAssembly().Location) + path.Path;  
         }
     }
 }

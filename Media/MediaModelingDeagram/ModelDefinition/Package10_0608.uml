@@ -142,6 +142,7 @@
       <class
         Id="5660ec85-9101-45fa-b909-dd947478009b"
         name="DataGrid"
+        visibility="Private"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

@@ -137,12 +137,6 @@
               <templateBindingHasTemplateParameterSubstitution>
                 <templateParameterSubstitution
                   Id="67ebd7ed-b90f-4b69-987f-177147df8375">
-                  <actuals>
-                    <classMoniker
-                      Id="c229ce4a-9dbb-4509-b82e-2f54ea2789f6"
-                      LastKnownName="Table"
-                      LastKnownLocation="Package_0608.uml" />
-                  </actuals>
                   <formal>
                     <classifierTemplateParameterMoniker
                       Id="6a74f10f-e6da-40a5-ab8c-02a1f7876a59"
