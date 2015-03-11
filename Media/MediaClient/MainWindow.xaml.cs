@@ -55,8 +55,7 @@ namespace MediaClient
             DataGrid grid = sender as DataGrid;
             MyTable path = grid.SelectedItem as MyTable;
             if (path != null)
-                axWmp.URL = System.IO.Path.GetDirectoryName(
-                    Assembly.GetExecutingAssembly().Location) + path.Path;  
+                axWmp.URL = path.Path;  
         }
     }
 }
