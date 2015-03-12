@@ -41,7 +41,7 @@
             this.axWindowsMediaPlayer1.MaximumSize = new System.Drawing.Size(1920, 0);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(365, 0);
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(365, 235);
             this.axWindowsMediaPlayer1.TabIndex = 0;
             // 
             // WmpAxControl
@@ -53,7 +53,7 @@
             this.MaximumSize = new System.Drawing.Size(1920, 0);
             this.MinimumSize = new System.Drawing.Size(365, 0);
             this.Name = "WmpAxControl";
-            this.Size = new System.Drawing.Size(365, 0);
+            this.Size = new System.Drawing.Size(365, 235);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 
